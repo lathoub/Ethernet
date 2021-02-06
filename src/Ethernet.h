@@ -148,9 +148,6 @@ private:
 
 extern EthernetClass Ethernet;
 
-
-#define UDP_TX_PACKET_MAX_SIZE 24
-
 class EthernetUDP : public UDP {
 private:
 	uint16_t _port; // local port to listen on
